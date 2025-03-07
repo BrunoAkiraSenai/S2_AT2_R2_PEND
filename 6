@@ -1,10 +1,11 @@
 // 3. Manipulação de Strings:
 // Contar Letras:
 
-// let texto = prompt("digite um texto: ");
+let texto = prompt("digite um texto: ");
 
-// function contaLetras(texto) {
-//     console.log(texto.length);
+function contaLetras(texto) {
+    let tiraEspaço = texto.replace(/ /g,"");
+    console.log(tiraEspaço.length);
 
-// }
-// contaLetras(texto)
+}
+contaLetras(texto)
